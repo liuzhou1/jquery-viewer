@@ -9,6 +9,6 @@ PC端非常好用的jquery-viewer插件，直接下载解压就能用。非常�
 
 ![](https://raw.githubusercontent.com/liuzhou1/jquery-viewer/master/jquery-viewer/img/preview-img.png)
 
-可以放大，缩小。非常
+简单好用
 
 
