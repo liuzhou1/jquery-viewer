@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="A jQuery plugin wrapper for Viewer.js.">
+  <meta name="author" content="Chen Fengyuan">
+  <title>jquery-viewer</title>
+  <link rel="stylesheet" href="css/viewer.css">
+  <style>
+    .container{
+      width: 80%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .preview>li{
+      width: 22%;
+      vertical-align: top;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+    .preview>li>img{
+      width: 99%;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="container">
+      <ul class="preview" id="preview-img">
+        <li><img data-original="img/img1.jpg" src="img/img1.jpg" alt="img/img1.jpg"></li>
+        <li><img data-original="img/img2.jpg" src="img/img2.jpg" alt="img/img2.jpg"></li>
+        <li><img data-original="img/img3.jpg" src="img/img3.jpg" alt="img/img3.jpg"></li>
+        <li><img data-original="img/img4.jpg" src="img/img4.jpg" alt="img/img4.jpg"></li>
+        <li><img data-original="img/img5.jpg" src="img/img5.jpg" alt="img/img5.jpg"></li>
+        <li><img data-original="img/img6.jpg" src="img/img6.jpg" alt="img/img6.jpg"></li>
+        <li><img data-original="img/img7.jpg" src="img/img7.jpg" alt="img/img7.jpg"></li>
+        <li><img data-original="img/img8.jpg" src="img/img8.jpg" alt="img/img8.jpg"></li>
+      </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/viewer.js"></script>
+    <script src="js/jquery-viewer.min.js"></script>
+    <script>
+     $('#preview-img').viewer();
+    </script>
+</body>
+
+</html>
